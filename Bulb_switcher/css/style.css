@@ -1,0 +1,77 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 10px auto;
+    border-radius: 50px;
+    background: linear-gradient(45deg, red, blue);
+    box-shadow: 0 0 80px 40px rgba(0,0,0,0.5);
+    /* смещение по ширине / смещение по высоте / радиус размытия / растяжение / цвет тени */
+}
+
+.buttons-colors {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 10px auto;
+    align-items: center;
+}
+
+.buttons-on-off button {
+    border: 0px solid;
+    border-radius: 16px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+
+button.red {
+    background-color: red;
+    color: white;
+}
+
+button.white {
+    background-color: white;
+    color: black;
+}
+
+button.yellow {
+    background-color: yellow;
+    color: black;
+}
+
+button.blue {
+    background-color: blue;
+    color: white;
+}
+
+button.usual {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.buttons-on-off button:hover {
+    background-color: orangered;
+    color: black;
+    box-shadow: 0px 0px 14px 3px whitesmoke;
+    /* смещение по ширине / смещение по высоте / радиус размытия / растяжение / цвет тени */
+}
+
+img {
+    margin-top: 20px;
+    width: 124px;
+    height: 200px;
+    transition: all 1.5s ease-in-out;
+}
+
+img:hover {
+    transform: rotate(360deg);
+}
+button {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+}
