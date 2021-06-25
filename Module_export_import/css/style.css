@@ -1,0 +1,32 @@
+h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 30px;
+}
+
+#addFunc, #multiplyFunc, #devideFunc, #minusFunc {
+    width: 80%;
+    height: 50px;
+    background-color: lightgrey;
+    color: rebeccapurple;
+    font-size: xx-large;
+    margin: 10px auto;
+    padding: 30px;
+}
+
+#addFunc {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#minusFunc {
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+#addFunc:hover, #multiplyFunc:hover, #devideFunc:hover, #minusFunc:hover {
+    box-shadow: 2px 2px 18px 2px lightslategrey;
+}
