@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="myCalculator">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>myCalculator</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    </head>
+
+    <body onload="type_zero()">
+        <div class="wrapper">
+
+        <div id="header">Simple Calculator</div>
+
+        <div id="container">
+
+            <div class="countPart">
+                <div class="history" aria-placeholder="Simple Calculator">
+
+                </div>
+                <div class="output-field">
+                    0
+                </div>
+            </div>
+
+
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <button onclick="clearButton()">C</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="change()">+/-</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="percent()">%</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input('*')">&times;</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input(7)">7</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input(8)">8</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input(9)">9</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input('/')">&divide;</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input(4)">4</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input(5)">5</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input(6)">6</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input('-')">&minus;</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input(1)">1</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input(2)">2</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input(3)">3</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input('+')">+</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input('0')">0</button>
+                    </div>
+                    <div class="grid-item">
+                        <button onclick="input('.')">.</button>
+                    </div>
+                    <div class="grid-item-equal">
+                        <button onclick="result()" class="equal-button">=</button>
+                    </div>
+                </div>
+
+                <div id="numButtons">
+
+                </div>
+
+        </div>
+
+
+        <!--<div class="buttons">
+            <button onclick="hide()">Author</button>
+            <button onclick="show()">Calculator</button>
+        </div>
+
+        <div id="author" style="display: none">
+            <p>&#128736; This calculator was created by student of <br>
+                &#128293; Ucode IT Academy in June 2021.<br>
+                &copy; All rights almost reserved by - Andrii Kashchuk :)<br>
+                <br>
+                Stack: HTML, CSS, JavaScript
+            </p>
+            <img class="photo" src="https://scontent-iev1-1.xx.fbcdn.net/v/t1.6435-9/41208649_10210451611321589_7120931450349682688_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=TNNEniTqIIAAX-fuCgP&_nc_ht=scontent-iev1-1.xx&oh=8ab20a3c16646f0fd0d586cdcf6dd99d&oe=60D1FF23" alt="Author's photo">
+            <a href="https://ucode.world/" target="_blank">
+                <img src="data:image/png;base64,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" alt="Ucode logo">
+            </a>
+        </div>-->
+
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+
+</html>
