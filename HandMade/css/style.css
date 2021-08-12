@@ -1,0 +1,698 @@
+body {
+    background-color: white;
+    margin: 0 auto;
+}
+
+.container-general {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: available;
+}
+
+.menu {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.menu li {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    /*border: 1px solid whitesmoke;*/
+    border-radius: 20px;
+    color: black;
+    text-transform: uppercase;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    transition: ease-in-out 1.5s;
+}
+
+.menu a {
+    text-decoration: none;
+    transition: ease-in-out 0.5s;
+}
+
+.menu a:hover {
+    color: mediumvioletred;
+    text-shadow: rebeccapurple 0 0 30px;
+    transition: ease-in-out 0.5s;
+    text-decoration: underline;
+}
+
+.img-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.lft-container, .right-container {
+    border: 0 solid black;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    flex-direction: row;
+}
+
+.lft-container {
+    border-top-left-radius: 20px;
+    /*border: 1px solid red;*/
+}
+
+.lft-container img {
+    width: 800px;
+    height: 600px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid green;*/
+    width: 800px;
+    height: 600px;
+    background-color: whitesmoke;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.right-container button a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.myName {
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*border: 1px solid red;*/
+}
+
+.myName p {
+    text-align: center;
+    font-size: 80px;
+}
+
+.aboutMe p {
+    display: flex;
+    text-align: center;
+    height: 100px;
+    /*border: 1px solid red;*/
+    font-size: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(0,0,0,0.64);
+
+}
+
+.btn {
+    height: 200px;
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border: 2px solid darkgrey;
+    border-radius: 16px;
+    font-size: 26px;
+    align-items: center;
+    text-transform: uppercase;
+    transition: ease-in-out 0.5s;
+}
+
+button:hover {
+    box-shadow: black 0 0 20px;
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 1600px;
+    height: 80px;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+    justify-content: center;
+    /*border: 1px solid green;*/
+    margin: 0 auto 20px auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.example {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1600px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.example-img {
+    width: 300px;
+    height: 400px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    margin: 40px;
+    background-color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.example-img:hover {
+    transition: ease-in-out 0.5s;
+    box-shadow: blueviolet 0 0 20px;
+    transform: scale3d(1.3, 1.3, 1.3);
+}
+
+.example-img img {
+    border-radius: 10px;
+}
+
+.empty {
+    display: flex;
+    width: 1600px;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.empty-smoke {
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    height: 80px;
+    /*margin: 0 auto;*/
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px auto 20px auto;
+}
+
+.empty-smoke-2 {
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    height: 140px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: 20px auto 20px auto;
+}
+
+.circle-wrapper {
+    display: flex;
+    width: 1600px;
+    height: 66px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.circle {
+    width: 64px;
+    height: 64px;
+    /*border-radius: 50%;
+    background-color: green;*/
+    animation-duration: 4s; /* Определяет время, в течение которого должен пройти один цикл анимации */
+    animation-name: box;
+    animation-iteration-count: infinite; /* Определяет количество повторений анимации; Вы можете использовать значение infinite для бесконечного повторения анимации. */
+    animation-direction: alternate; /* Дает возможность при каждом повторе анимации идти по альтернативному пути, либо сбросить все значения и повторить анимацию. */
+    transition: ease-in-out 2s;
+}
+
+.circle-2 {
+    width: 64px;
+    height: 64px;
+    /*border-radius: 50%;
+    background-color: green;*/
+    animation-duration: 6s; /* Определяет время, в течение которого должен пройти один цикл анимации */
+    animation-name: box-2;
+    animation-iteration-count: infinite; /* Определяет количество повторений анимации; Вы можете использовать значение infinite для бесконечного повторения анимации. */
+    animation-direction: alternate; /* Дает возможность при каждом повторе анимации идти по альтернативному пути, либо сбросить все значения и повторить анимацию. */
+    transition: ease-in-out 2s;
+}
+
+.circle-3 {
+    width: 64px;
+    height: 64px;
+    /*border-radius: 50%;
+    background-color: green;*/
+    animation-duration: 8s; /* Определяет время, в течение которого должен пройти один цикл анимации */
+    animation-name: box-3;
+    animation-iteration-count: infinite; /* Определяет количество повторений анимации; Вы можете использовать значение infinite для бесконечного повторения анимации. */
+    animation-direction: alternate; /* Дает возможность при каждом повторе анимации идти по альтернативному пути, либо сбросить все значения и повторить анимацию. */
+    transition: ease-in-out 2s;
+}
+
+.circle-4 {
+    width: 64px;
+    height: 64px;
+    /*border-radius: 50%;
+    background-color: green;*/
+    animation-duration: 8s; /* Определяет время, в течение которого должен пройти один цикл анимации */
+    animation-name: box-4;
+    animation-iteration-count: infinite; /* Определяет количество повторений анимации; Вы можете использовать значение infinite для бесконечного повторения анимации. */
+    animation-direction: alternate; /* Дает возможность при каждом повторе анимации идти по альтернативному пути, либо сбросить все значения и повторить анимацию. */
+    transition: all linear 3.5s;
+}
+
+.circle:hover, .circle-2:hover, .circle-3:hover, .circle-4:hover {
+    transform: rotate(360deg) scale(1.3) translate(20px, 20px);
+    transition: ease-in-out 2s;
+    transform-origin: top left;
+}
+
+/* настраиваем кадры анимации */
+@keyframes box {
+    from {
+        margin-left: 10%;
+    }
+    /*60% {
+        margin-left: 15%;
+    }*/
+    to {
+        margin-left: 15%;
+    }
+}
+
+@keyframes box-2 {
+    from {
+        margin-left: 15%;
+    }
+/*    50% {
+        margin-left: 30%;
+    }*/
+    to {
+        margin-left: 30%;
+    }
+}
+
+@keyframes box-3 {
+    from {
+        margin-left: 30%;
+    }
+    /*65% {
+        margin-left: 60%;
+    }*/
+    to {
+        margin-left: 45%;
+    }
+}
+
+@keyframes box-4 {
+    from {
+        margin-right: 0%;
+    }
+    50% {
+        margin-right: 65%;
+    }
+    to {
+        margin-right: 55%;
+    }
+}
+
+/*                                     ABOUT PAGE                                   */
+
+.underline {
+    text-decoration: underline;
+    transition: ease-in-out 1.5s;
+}
+
+.aboutPage .aboutMe-img {
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.aboutPage img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 486px;
+    height: 324px;
+    border-radius: 20px;
+    transition: ease-in-out 2.0s;
+}
+
+.aboutPage img:hover {
+    transform: scale3d(0.8, 0.8, 0.8);
+    transition: ease-in-out 1.5s;
+}
+
+.aboutPage {
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.boofer {
+
+    width: 1600px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.aboutPage h1 {
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.aboutPage p {
+    padding: 20px 60px 20px 60px;
+    font-size: 30px;
+    color: rgba(0,0,0,0.64);
+    text-align: center;
+    line-height: 40px;
+}
+
+
+/*                                     CONTACTS PAGE                                   */
+
+.contacts {
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.left-container, .contacts-container {
+
+}
+
+.left-container {
+    width: 800px;
+    height: 680px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.left-container img {
+    width: 800px;
+    height: 680px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 680px;
+    background-color: whitesmoke;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.img-container a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+
+.img-container a:hover {
+    text-decoration: underline;
+}
+
+.contacts h1 {
+    display: flex;
+    font-size: 60px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.contacts h2 {
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(0,0,0,0.64);
+}
+
+.contacts p {
+    display: flex;
+    font-size: 30px;
+    color: rgba(0,0,0,0.64);
+    transition: ease-in-out 0.5s;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1600px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.social-box {
+    width: 50px;
+    height: 50px;
+    /*border: 1px solid rgba(0,0,0,0.64);*/
+    border-radius: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+.social-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    transition: ease-in-out 0.5s;
+}
+
+.social-box img:hover {
+    box-shadow: black 0 0 20px;
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+/*                                     HOW TO ORDER PAGE                                   */
+
+.wrapper-order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1600px;
+    height: auto;
+    background-color: whitesmoke;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.icon {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.icon img {
+    width: 128px;
+    height: 128px;
+}
+
+.step-1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.step-1 p {
+    font-size: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: justify;
+    color: rgba(0,0,0,0.64);
+    text-indent: 60px; /*отступ абзац*/
+    line-height: 40px;
+}
+
+/*                                     FORM PAGE                                   */
+
+.form-wrapper {
+    width: 1600px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.inner-wrapper {
+    width: inherit;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-img img {
+    border-radius: 20px;
+}
+
+form {
+    width: 780px;
+    height: auto;
+    font-size: 28px;
+    color: rgba(0,0,0,0.64);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    line-height: 54px;
+}
+
+.border {
+    border: 2px solid rgba(0,0,0,0.64);
+    border-radius: 10px;
+}
+
+.form-name {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+form input {
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.64);
+    margin-bottom: 10px;
+    width: 770px;
+    transition: ease-in-out 0.5s;
+    font-size: 20px;
+}
+
+input:hover {
+    border: 1px solid mediumvioletred;
+    box-shadow: rebeccapurple 0 0 20px;
+    transition: ease-in-out 0.5s;
+}
+
+form input:active {
+    color: red;
+    border: blueviolet;
+    font-size: 20px;
+}
+.wrapper-order .btn-hto button {
+    display: flex;
+    width: 300px;
+    height: 60px;
+    color: black;
+    background-color: white;
+    border: 2px solid darkgrey;
+    border-radius: 16px;
+    font-size: 26px;
+    text-transform: uppercase;
+    transition: ease-in-out 0.5s;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-hto button:hover {
+    box-shadow: black 0 0 20px;
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.5s;
+}
+
+.btn-hto a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-hto a:hover {
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+
+.send-clear {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*                                     HAND MADE PAGE                                   */
+
+.hm-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    width: 1600px;
+    height: 360px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+}
+
+.hm-wrapper-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 480px;
+    height: 200px;
+    /*border: 1px solid rgba(0,0,0,0.64);*/
+    border-radius: 20px;
+    background-color: white;
+    transition: ease-in-out 1s;
+}
+
+.hm-wrapper-box:hover {
+    background-color: whitesmoke;
+    transition: ease-in-out 0.3s;
+}
+
+.hm-wrapper-box p {
+    display: flex;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+}
+
+.hm-wrapper-box img {
+    width: 128px;
+    height: 128px;
+    display: flex;
+}
