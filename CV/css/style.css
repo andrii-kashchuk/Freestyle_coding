@@ -1,0 +1,216 @@
+.wrapper {
+    margin: 0 auto;
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: thick double darkgrey;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 600px;
+    height: auto;
+}
+
+.photo {
+    height: 360px;
+    width: auto;
+    border: thick double darkgrey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAF0F8;
+}
+
+.photo:hover {
+    border: thick double #8E53C7;
+    box-shadow: 0 0 10px #8E53C7;
+}
+
+.photo img {
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+
+.additionalInfo {
+    display: flex;
+    height: auto;
+    width: auto;
+    border: thick double darkgrey;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.additionalInfo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: auto;
+    width: auto;
+    border: thick double darkgrey;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.additionalInfo:hover, .recommendations:hover, .additionalInfo2:hover {
+    border: thick double #8E53C7;
+    box-shadow: 0 0 10px #8E53C7;
+}
+
+.additionalInfo p, .recommendations p, ul li {
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+}
+
+.recommendations {
+    height: auto;
+    width: auto;
+    border: thick double darkgrey;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.zero {
+    width: 10px;
+}
+
+.border {
+    border: thick double darkgrey;
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+    width: 1000px;
+}
+
+.border:hover {
+    border: thick double #8E53C7;
+    box-shadow: 0 0 10px #8E53C7;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1000px;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul#demo, ul#demo0, ul#demo1, ul#demo2, ul#demo3, ul#demo4, ul#demo5, ul#demo6, ul#demo7, ul#demo8, ul#demo9, ul#demo10 {
+    max-height: 900px;
+    width: 950px;
+    overflow-y: hidden;
+    transition: all 1s;
+    background-color: rgba(232,232,232,0.19);
+    border: thick double darkgrey;
+    border-radius: 20px;
+
+}
+
+li {
+    font-size: 20px;
+    color: gray;
+    line-height: 34px;
+    list-style-type: circle;
+}
+
+#demo a, #demo0 a, #demo1 a, #demo2 a, #demo3 a, #demo4 a, #demo5 a, #demo6 a, #demo7 a, #demo8 a, #demo9 a, #demo10 a {
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#demo a:hover, #demo0 a:hover, #demo1 a:hover, #demo2 a:hover, #demo3 a:hover, #demo4 a:hover, #demo5 a:hover, #demo6 a:hover, #demo7 a:hover, #demo8 a:hover, #demo9 a:hover, #demo10 a:hover  {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.workPlaces {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+    padding-left: 4px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.workDate {
+    width: 300px;
+    height: 30px;
+    color: #7b7b7b;
+    border: 1px solid darkgrey;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+    transition: all 1s;
+}
+
+.workName {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.workPosition {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+button {
+    width: 300px;
+    height: 30px;
+    color: #7b7b7b;
+    border: 1px solid darkgrey;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+    transition: all 1s;
+}
+
+button:hover {
+    box-shadow: 0 0 10px gray;
+    background-color: #F9F9F9;
+}
+
+button:active {
+    width: 370px;
+    height: 26px;
+    background-color: #8E53C7;
+    color: white;
+    border: 2px solid;
+    /*transition: all 1s;*/
+}
+
+.slider {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    margin: 0;
+    width: 1000px;
+}

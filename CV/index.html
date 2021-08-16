@@ -1,20 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andrii Kashchuk' CV</title>
-    <meta name="description" content="CV">
-    <meta name="keywords" content="CV">
-    <meta name="author" content="Andrii Kashchuk'CV">
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Kashchuk Andrii</title>
+    <meta name="description" content="Practice, CSS, HTML, JavaScript">
+    <meta name="keywords" content="CSS, HTML, JavaScript">
+    <meta name="author" content="Andrii Kashchuk">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-<h1>Here will be my CV soon</h1>
+<div class="wrapper">
 
-<script src="./js/script.js"></script>
+    <div class="mainInfo">
+        <div class="photo">
+            <img src="assets/me-for-resume.jpg">
+        </div>
+
+        <div class="additionalInfo">
+            <p><b>Дата народження:</b> 13 лютого 1982 року</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>E-mail: </b><a href="mailto:007kaschey007@gmail.com">007kaschey007@gmail.com</a></p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Телефон, Viber, WhatsApp:</b> +38 067 935 83 61</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Facebook:</b>
+                <a href="https://www.facebook.com/andrey.kashchuk" target="_blank">
+                    перейти за посиланням</a>
+            </p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Территория:</b> Украина</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Бажаний рівень заробітної плати:</b> 2000$</p>
+        </div>
+
+        <div class="additionalInfo">
+            <p><b>Громадянство:</b> українець</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Володіння мовами</b> – українська та російська: вільно, англійська: розмовний + ділове листування</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>ПК:</b> Microsoft Office, Adobe Photoshop, HTML5 + CSS3, JavaScript, Camtasia Studio</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Військова кафедра</b> при НТУУ "КПІ"</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Водійське посвідчення</b> категорії B1, В, С1, С, ВЕ</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Закордонний паспорт</b> дійсний до 2025 року</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Спорт:</b> Tae Kwon Do, акробатика, катання на роликах</p>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Тренінги:</b></p>
+                <ul>
+                    <li>Ігорь Манн «Маркетинг на 100%»</li>
+                    <li>Відеокурс «Всі техничні моменти онлайн-бізнесу»</li>
+                    <li>Випускник школи YouTube Дениса Коновалова</li>
+                    <li>Практична програма з інвестицій Е.Дубинського - «Успішний інвестор»</li>
+                    <li>Учасник освітнього проекту Дмитра Ковпака: «Фабрика» - бізнес з Китаєм</li>
+                </ul>
+        </div>
+        <div class="additionalInfo">
+            <p><b>Курси англійської:</b> у British Council </p>
+        </div>
+
+
+        <div class="recommendations">
+            <p class="upper"><b>Рекомендації:</b></p>
+            <p><b>«АвтоКапітал» </b>заступник генерального директора</p>
+            <p><b>BergHOFF-Україна</b> генеральний директор</p>
+            <p>номер телефону надається за запитом</p>
+        </div>
+    </div>
+
+    <div class="zero"></div>
+
+    <div class="border">
+
+        <!-- БЛОК ОСВІТА -->
+        <p class="workPlaces">Освіта</p>
+        <div class="block">
+            <p class="workName">1999 - 2004 Національний технічний університет України «КПІ».</p>
+            <p class="workPosition">Студент</p>
+            <ul id="demo">
+                <li>Факультет менеджменту та маркетингу.</li>
+                <li>Спеціальність «Маркетинг».</li>
+                <li>Кваліфікація економіст-маркетолог.</li>
+                <a href="http://fmm.kpi.ua/" target="_blank">переглянути сайт</a>
+            </ul>
+            <div class="slider">
+                <button onclick="slideDown()">Розгорнути</button>
+                <button onclick="slideUp()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block0">
+            <p class="workName">03.2021 - 07.2021 Студент в Ucode IT Academy / Full Stack Web Developer</p>
+            <p class="workPosition">Студент</p>
+            <ul id="demo0">
+                <li>Середній рівень знаннь мов програмування HTML, CSS, JS;</li>
+                <li>Досвід роботи з GitHub;</li>
+                <li>Реалізація двох проектів (веб-сайти);</li>
+                <a href="https://ucode.world/web-full-stack-developer/" target="_blank">переглянути сайт</a>
+            </ul>
+            <div class="slider">
+                <button onclick="slideDown0()">Розгорнути</button>
+                <button onclick="slideUp0()">Скрити</button>
+            </div>
+        </div>
+
+        <!-- БЛОК ДОСВІД -->
+        <p class="workPlaces">Досвід</p>
+
+        <div class="block">
+            <p class="workName">Фізична особа</p>
+            <p class="workPosition">Помічник керівника ("права рука")</p>
+            <ul id="demo1">
+                <li>Проведення переговорів від імені керівника;</li>
+                <li>Самостійні ухвалення рішень у рамках компетенції;</li>
+                <li>Пошук підрядників на вигідних для керівника умовах і контроль за виконанням поставлених перед ними завдань;</li>
+                <li>Зустріч делегацій в аеропорту;</li>
+                <li>Участь в переговорах з іноземними партнерами керівника;</li>
+                <li>Зарубіжні відрядження у рамках визначених бізнес напрямів;</li>
+                <li>Укладення договорів купівлі-продажу від імені керівника;</li>
+                <li>Представлення інтересів керівника в органах влади;</li>
+                <li>Виконання нестандартних завдань і вирішення проблемних питань;</li>
+                <li>Управління та технічне обслуговування автопарку, човнів;</li>
+                <li>Рішення побутових проблем;</li>
+                <li>Підбір персоналу;</li>
+                <li>Виконання доручень різного характеру;</li>
+                <li>Організація замовлення товарів та їх доставка з-за кордону(від дрібних товарів до транспортних засобів);</li>
+                <li>Складання щомісячних фінансових звітів;</li>
+                <li>На зв'язку 24/7/365;</li>
+            </ul>
+            <div class="slider">
+                <button class="workDate">працював з 02.2009 по 12.2020</button>
+                <button onclick="slideDown1()">Розгорнути</button>
+                <button onclick="slideUp1()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <p class="workName">ФОП «Кащук А.О.»</p>
+            <p class="workPosition">Директор</p>
+            <ul id="demo2">
+                <li>Укладення договору оренди і додаткових угод;</li>
+                <li>Придбання необхідного обладнання, організація закупівлі витратних матеріалів;</li>
+                <li>Розробка посадових інструкцій для співробітників, правил для клієнтів;</li>
+                <li>Організація робочого процесу на території підприємства;</li>
+                <li>Документообіг з компаніями, які обслуговуються за безготівковим розрахунком;</li>
+                <li>Ведення бухгалтерського обліку;</li>
+                <li>Рішення конфліктних ситуацій і форс-мажорних обставин;</li>
+                <a href="https://gullivercenter.com/trc-services/auto-moyka" target="_blank">переглянути сайт</a>
+            </ul>
+            <div class="slider">
+                <button class="workDate">працював з 06.2013 по 12.2020</button>
+                <button onclick="slideDown2()">Розгорнути</button>
+                <button onclick="slideUp2()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <p class="workName">ТОВ "Федерація кайтбординга України"</p>
+            <p class="workPosition">Директор</p>
+            <ul id="demo3">
+                <li>Створення веб-сайту для продажу професійного устаткування для кайтбординга;</li>
+                <li>Продаж устаткування дилерам по Україні;</li>
+                <li>Підготовка реалізації проекту вейк-парка на території АР Крим;</li>
+                <li>Відкриття сезонного ресторану на березі моря у рамках планованого вейк-парка;</li>
+                <!--<a href="https://gullivercenter.com/trc-services/auto-moyka" target="_blank">переглянути сайт</a>-->
+            </ul>
+            <div class="slider">
+                <button class="workDate">працював з 06.2010 по 07.2021</button>
+                <button onclick="slideDown3()">Розгорнути</button>
+                <button onclick="slideUp3()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <p class="workName">ВГО «Федерація кайтбордингу, віндсерфінгу та серфінгу України»</p>
+            <p class="workPosition">Помічник Президента федерації</p>
+            <ul id="demo4">
+                <li>Створення веб-сайту федерації;</li>
+                <li>Адаптація правил і міжнародного дисциплінарного кодексу поведінки спортсменів;</li>
+                <li>Організація трьох етапів Чемпіонату України з кайтбордингу з 2010 по 2013 року включно;</li>
+                <li>Організація Чемпіонатів України з кайтбордингу в рамках спортивно-музичного фестивалю Z-Games з 2010 по 2013 року включно;</li>
+                <li>Підготовка презентації Чемпіонату України з кайтбордингу для інвесторів;</li>
+                <li>Підготовка документів до Міністерства молоді і спорту України для визнання кайтбординга видом спорту в Україні;</li>
+                <!--<a href="" target="_blank">переглянути сайт</a>-->
+            </ul>
+            <div class="slider">
+                <button class="workDate">працював з 06.2010 по 12.2013</button>
+                <button onclick="slideDown4()">Розгорнути</button>
+                <button onclick="slideUp4()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <p class="workName">ТОВ «Фрізендбейк Україна» - ексклюзивний імпортер швейцарської компанії Fredy's AG в Україні</p>
+            <p class="workPosition">Менеджер з розвитку компанії</p>
+            <ul id="demo5">
+                <li>Підбір місця і організація відкриття офісу компанії і складського приміщення під ввезену в країну продукцію;</li>
+                <li>Ведення обліку продукції на складі;</li>
+                <li>Проведення презентацій продукції головним шеф-кухарям ресторанів і готелів;</li>
+                <li>Відрядження по країні та за її межами;</li>
+                <li>Прийом та обробка замовлень від клієнтів; організація доставки продукції і документообіг між контрагентами;</li>
+                <li>Визначення затребуваних на ринку позицій і організація закупівель продукції за кордоном;</li>
+                <li>Аналіз та ведення статистичних даних;</li>
+                <li>Проведення переговорів з потенційними клієнтами всередині країни;</li>
+                <li>Проведення переговорів під час закордонних поїздок з метою співпраці з іншими іноземними компаніями (розширення асортименту);</li>
+                <li>Підготовка та організація внутрішнього виробництва продукції відповідно до наданої ліцензії від іноземної компанії;</li>
+                <!--<a href="" target="_blank">переглянути сайт</a>-->
+            </ul>
+            <div class="slider">
+                <button class="workDate">працював з 03.2009 по 06.2010</button>
+                <button onclick="slideDown5()">Розгорнути</button>
+                <button onclick="slideUp5()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <p class="workName">ПРАТ "АвтоКапітал" – Представництво Daimler AG та Chrysler Int. Corp. в Україні та Казахстані (УкрАвто)</p>
+            <p class="workPosition">Маркетолог-аналітик</p>
+            <ul id="demo6">
+                <li>Аналіз ринку;</li>
+                <li>Маркетингові дослідження;</li>
+                <li>Сегментація ринку;</li>
+                <li>Цінове позиціонування;</li>
+                <li>Командна робота з відділом реклами компанії і відділом продажів;</li>
+                <li>Стимулювання збуту (програма стимулювання торгового персоналу «Колесо Фортуни»);</li>
+                <li>Моніторинг і аналіз діяльності конкурентів (підтримка взаємин з конкурентами);</li>
+                <li>Моніторинг і аналіз макроекономічних індикаторів, аналіз структури і тенденції ринку, пошук інформації;</li>
+                <li>Аналіз споживчих переваг;</li>
+                <li>Участь у прийнятті рішення про рух продукції всередині країни (розподіл по дилерам);</li>
+                <li>Робота з дилерами;</li>
+                <li>Проведення переговорів з партнерами з Chrysler Int.Corp. у вузькому колі (зустрічі і дискусії, ділова переписка);</li>
+                <li>Формування оперативних звітів (щотижневі, щомісячні);</li>
+                <li>Підготовка аналітичних звітів для топ менеджменту компанії.</li>
+                <a href="https://www.mercedes-benz.ua/passengercars/the-brand/avtokapital/stage.module.html" target="_blank">переглянути сайт</a>
+            </ul>
+            <div class="slider">
+                <button class="workDate">працював з 12.2007 по 12.2008</button>
+                <button onclick="slideDown6()">Розгорнути</button>
+                <button onclick="slideUp6()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <p class="workName">BergHOFF-Україна</p>
+            <p class="workPosition">Маркетолог</p>
+            <ul id="demo7">
+                <li>Просування і розвиток бренду на ринку України;</li>
+                <li>Робота з рекламним агентством (формулювання технічного завдання для рекламного агентства, узгодження, контроль за виконанням);</li>
+                <li>Складання плану маркетингу, розробка рекламної кампанії на рік, проведення переговорів з представниками ЗМІ;</li>
+                <li>Ведення бази клієнтів компанії (повідомлення про новинки, акції, поштова та електронна розсилка);</li>
+                <li>Робота з дилерами (реклама, проведення акцій, інформування про новинки, тощо), розробка дисконтної програми;</li>
+                <li>Підготовка рекламних матеріалів для відкриття нових магазинів, рекламна підтримка і просування в ЗМІ;</li>
+                <li>Проведення досліджень торгових центрів з метою визначення найбільш вигідних торгових центрів для відкриття в них фірмових магазинів, а також написання висновків і рекомендацій для вищого керівництва компанії в рамках даного дослідження;</li>
+                <li>Підготовка матеріалів для створення веб-сайтів компанії (внутрішній і зовнішній);</li>
+                <li>Розробка спеціальних акцій і контроль за їх виконанням (збільшення короткострокового попиту);</li>
+                <li>Робота з підрядними організаціями (поліграфія та замовлення сувенірної продукції);</li>
+                <li>Підготовка і участь у виставці.</li>
+                <a href="https://berghoff.ua/" target="_blank">переглянути сайт</a>
+            </ul>
+            <div class="slider">
+                <button class="workDate">працював з 12.2005 по 12.2007</button>
+                <button onclick="slideDown7()">Розгорнути</button>
+                <button onclick="slideUp7()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <p class="workName">ТОВ "Южспецмонтаж"</p>
+            <p class="workPosition">Менеджер з реклами</p>
+            <ul id="demo8">
+                <li>Аналіз конкурентів;</li>
+                <li>Проведення маркетингових досліджень;</li>
+                <li>Розробка рекламної кампанії;</li>
+                <li>Забезпечення компанії необхідною рекламною продукцією;</li>
+                <li>Реєстрація, оформлення, відкриття роздрібного магазину компанії;</li>
+                <li>Підготовка рекомендацій щодо поліпшення роботи компанії.</li>
+                <a href="https://construction-company-7836.business.site/" target="_blank">переглянути сайт</a>
+            </ul>
+            <div class="slider">
+                <button class="workDate">працював з 09.2004 по 12.2005</button>
+                <button onclick="slideDown8()">Розгорнути</button>
+                <button onclick="slideUp8()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <p class="workName">Рекламне агентство "VelGard" </p>
+            <p class="workPosition">Account-менеджер</p>
+            <ul id="demo9">
+                <li>Розробка і підтримка рекламних кампаній існуючих клієнтів;</li>
+                <li>Медіа-планування;</li>
+                <li>Аналіз ефективності проведення рекламної кампанії (підготовка звітів);</li>
+                <li>Впровадження власних проектів агентства, такі, як «Шоу Стефано Пелінга» чемпіона світу по артистичному більярду (більярдний клуб «STRIKE», 4 грудня 2003 року) написання прес-релізів, акредитація представників ЗМІ, допомога в організації та проведенні прес-конференції;</li>
+                <li>Робота з представниками органів влади, підготовка і отримання дозвільної документації на об'єкти зовнішньої реклами у КП "Київреклама".</li>
+                <a href="http://www.velgard.kiev.ua/" target="_blank">переглянути сайт</a>
+            </ul>
+            <div class="slider">
+                <button class="workDate">працював з 08.2003 - 07.2004</button>
+                <button onclick="slideDown9()">Розгорнути</button>
+                <button onclick="slideUp9()">Скрити</button>
+            </div>
+        </div>
+
+        <div class="block">
+            <p class="workPlaces">Приклади веб-сайтів</p>
+            <ul id="demo10">
+                <li>Розробка веб-сайту для YouTube блогера <a href="https://first-sex.info/" target="_blank">переглянути сайт</a></li>
+                <li>Розробка веб-сайту з HandMade тематики <a href="https://hand-made.com/" target="_blank">переглянути сайт</a></li>
+                <li>Розробка веб-версії резюме <a href="https://cv.info/" target="_blank">переглянути сайт</a></li>
+
+            </ul>
+            <div class="slider">
+                <button onclick="slideDown10()">Розгорнути</button>
+                <button onclick="slideUp10()">Скрити</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
-
-
