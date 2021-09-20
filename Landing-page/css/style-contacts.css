@@ -1,0 +1,193 @@
+.textCenter {
+    text-align: center;
+}
+
+.wrapperRow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.leftBlock {
+    width: 22%;
+    min-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 30px;
+    /*border: 1px solid yellow;*/
+}
+
+.middleBlock {
+    width: 22%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    /*border: 1px solid red;*/
+}
+
+.rightBlock {
+    width: 50%;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*padding: 30px;*/
+    /*background-color: whitesmoke;*/
+    /*border-radius: 4px;*/
+    /*margin-left: 10px;*/
+    /*border: 1px solid cornflowerblue;*/
+}
+
+.blockImgTxt {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 4px;
+    /*border: 1px solid purple;*/
+    transition: ease-in-out 0.5s;
+}
+
+.blockImgTxt:hover {
+    box-shadow: 0 0 10px grey;
+    background-color: whitesmoke;
+}
+
+.blockImg {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockImg img {
+    width: 50%;
+}
+
+.blockTxt {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    /*border: 1px solid brown;*/
+}
+
+.blockTxt h5 {
+    text-transform: uppercase;
+}
+
+.blockTxt a {
+    text-decoration: none;
+    color: black;
+}
+
+.blockTxt a:hover {
+    text-decoration: underline;
+}
+
+.rightBlock h3 {
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.rightBlock p {
+    color: black;
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    /*border: 1px solid grey;*/
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form input {
+    line-height: 40px;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+form input:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.name, .email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    min-width: 220px;
+    margin: 20px 20px 10px 20px;
+}
+
+.question {
+    width: 90%;
+    height: 100px;
+    margin: 10px 20px 10px 20px;
+}
+
+.rightBlock button {
+    margin: 20px 20px 0 20px;
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid black;
+    text-transform: uppercase;
+    border-radius: 4px;
+    transition: ease-in-out 0.4s;
+}
+
+.rightBlock button:hover {
+    background-color: black;
+    color: white;
+}
+
+video {
+    /* default size is:
+    width: 960px;
+    height: 540px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 640px;
+    height: 360px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 450px) and (max-width: 800px) {
+    video {
+        width: 400px;
+        height: 225px;
+        justify-content: center;
+    }
+}

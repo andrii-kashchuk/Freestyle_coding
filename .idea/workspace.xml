@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99914649-8344-4c89-b68a-13a3e5084e22" name="Default Changelist" comment="">
+    <list default="true" id="99914649-8344-4c89-b68a-13a3e5084e22" name="Default Changelist" comment="Web version of my CV. Created by myself.">
+      <change afterPath="$PROJECT_DIR$/CV/css/style-check.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CV/cv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CV/js/script-check.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/js/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bulb_switcher/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bulb_switcher/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CV/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/CV/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandMade/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandMade/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandMade/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandMade/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandMade/handmade.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/handmade.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandMade/howtoorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/howtoorder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HandMade/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,16 +28,25 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1uOrpFzTUsy9AwAgSiU7pTVlzW6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,9 +56,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Landing-page/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andrey\Freestyle_coding\Landing-page\css" />
+      <recent name="C:\Users\Andrey\Freestyle_coding\Landing-page" />
+      <recent name="C:\Users\Andrey\Freestyle_coding\HandMade\ru" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,11 +76,51 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624547659233</updated>
-      <workItem from="1624547660832" duration="31332000" />
+      <workItem from="1624547660832" duration="35531000" />
+      <workItem from="1625483775706" duration="4950000" />
+      <workItem from="1625815412541" duration="417000" />
+      <workItem from="1626343391854" duration="3678000" />
+      <workItem from="1627923959885" duration="736000" />
+      <workItem from="1627931180475" duration="1346000" />
+      <workItem from="1628234303171" duration="2513000" />
+      <workItem from="1628246554684" duration="2171000" />
+      <workItem from="1628757225293" duration="497000" />
+      <workItem from="1628758422526" duration="100506000" />
+      <workItem from="1629806841328" duration="21475000" />
+      <workItem from="1630148093027" duration="143566000" />
+      <workItem from="1631518676442" duration="19664000" />
+      <workItem from="1631599916597" duration="3780000" />
+      <workItem from="1631699491239" duration="13954000" />
+      <workItem from="1631789004754" duration="10200000" />
+      <workItem from="1631862947273" duration="26537000" />
     </task>
+    <task id="LOCAL-00001" summary="Web version of my CV. Created by myself.">
+      <created>1629118172110</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629118172110</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Web version of my CV. Created by myself." />
+    <option name="LAST_COMMIT_MESSAGE" value="Web version of my CV. Created by myself." />
   </component>
 </project>

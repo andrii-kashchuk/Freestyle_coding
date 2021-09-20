@@ -1,0 +1,92 @@
+.textCenter {
+    text-align: center;
+}
+
+.wrapperRow {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container9 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+    padding: 40px;
+}
+
+.container10 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: auto;
+}
+
+.block30percent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30%;
+    min-width: 350px;
+    /*border: 1px solid silver;*/
+    padding: 30px;
+}
+
+.block40percent {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    min-width: 350px;
+    /*border: 1px solid silver;*/
+    padding: 30px;
+}
+
+.block70percent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+    min-width: 400px;
+    /*border: 1px solid silver;*/
+    padding: 30px;
+}
+
+.block40percent img {
+    width: 100%;
+    height: auto;
+}
+
+.block30percent h5 {
+    width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.block30percent p {
+    text-align: center;
+}
+
+.block70percent h3 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.block70percent p {
+    text-align: justify;
+}
+
+.container10 h2 {
+    display: flex;
+    width: 90%;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: white;
+    background: linear-gradient(to right, black, white);
+    padding-left: 20px;
+}

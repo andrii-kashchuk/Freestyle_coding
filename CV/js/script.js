@@ -165,6 +165,20 @@ function slideDown10() {
 
 /* -------------------------------------------------------------------------------------------------------- */
 
+function slideUp11() {
+    let elem = document.getElementById("demo11");
+
+    elem.style.maxHeight = "0px";
+}
+
+function slideDown11() {
+    let elem = document.getElementById("demo11");
+
+    elem.style.maxHeight = "900px";
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
 slideUp();
 slideUp0();
 slideUp1();
@@ -177,3 +191,4 @@ slideUp7();
 slideUp8();
 slideUp9();
 slideUp10();
+slideUp11();
