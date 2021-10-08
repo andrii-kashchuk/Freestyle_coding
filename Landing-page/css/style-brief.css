@@ -1,0 +1,52 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.inbound-form-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    min-width: 400px;
+}
+
+.picture {
+    display: flex;
+    flex-wrap: wrap;
+    width: 42%;
+    min-width: 400px;
+}
+
+.picture img {
+    width: 100%;
+    height: auto;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.picture-txt {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: 4px double grey;
+    border-radius: 4px;
+}
+
+.picture-txt h3 {
+    text-transform: uppercase;
+}
+
+.picture-txt p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}

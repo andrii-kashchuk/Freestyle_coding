@@ -1,0 +1,297 @@
+/*
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    .additionalInfo p, .recommendations p, ul li {
+        justify-content: center;
+        font-size: 10px;
+        color: black;
+    }
+    .workPlaces {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin: 10px 0 10px 0;
+        padding-left: 4px;
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    }
+
+    .workDate {
+        width: 30%;
+        !*min-width: 180px;*!
+        height: 30px;
+        color: #7b7b7b;
+        border: 1px solid darkgrey;
+        border-radius: 6px;
+        background-color: white;
+        font-size: 9px;
+        transition: all 1s;
+    }
+
+    .workName {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .workPosition {
+        margin: 0;
+        padding: 0;
+        color: gray;
+        font-size: 12px;
+        font-weight: bold;
+    }
+}
+
+*/
+
+
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: thick double darkgrey;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    max-width: 35%;
+    min-width: 180px;
+    height: auto;
+}
+
+.photo {
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border: thick double darkgrey;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FAF0F8;
+}
+
+.photo:hover {
+    border: thick double #8E53C7;
+    box-shadow: 0 0 10px #8E53C7;
+}
+
+.photo img {
+    /*min-width: 200px;*/
+    max-width: 100%;
+    /*min-width: 180px;*/
+    height: 100%;
+    border-radius: 20px;
+}
+
+.additionalInfo {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    border: thick double darkgrey;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.additionalInfo ul {
+    max-width: 100%;
+    height: auto;
+}
+
+.additionalInfo a {
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.additionalInfo a:hover {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.additionalInfo2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    /*min-width: 150px;*/
+    border: thick double darkgrey;
+    border-radius: 20px;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.additionalInfo:hover, .recommendations:hover, .additionalInfo2:hover {
+    border: thick double #8E53C7;
+    box-shadow: 0 0 10px #8E53C7;
+}
+
+.additionalInfo p, .recommendations p, ul li {
+    justify-content: center;
+    font-size: 20px;
+    color: black;
+}
+
+.recommendations {
+    height: auto;
+    max-width: 100%;
+    /*min-width: 180px;*/
+    border: thick double darkgrey;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.zero {
+    width: 1%;
+}
+
+.border {
+    border: thick double darkgrey;
+    border-radius: 20px;
+    padding: 20px;
+    height: auto;
+    max-width: 60%;
+    min-width: 150px;
+}
+
+.border:hover {
+    border: thick double #8E53C7;
+    box-shadow: 0 0 10px #8E53C7;
+}
+
+.block, block0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul#demo, ul#demo0, ul#demo1, ul#demo2, ul#demo3, ul#demo4, ul#demo5, ul#demo6, ul#demo7, ul#demo8, ul#demo9, ul#demo10, ul#demo11 {
+    height: auto;
+    width: auto;
+    overflow-y: hidden;
+    transition: all 1s;
+    background-color: rgba(232,232,232,0.19);
+    border: thick double darkgrey;
+    border-radius: 20px;
+    align-items: center;
+}
+
+li {
+    font-size: 20px;
+    color: gray;
+    line-height: 34px;
+    list-style-type: circle;
+}
+
+#demo a, #demo0 a, #demo1 a, #demo2 a, #demo3 a, #demo4 a, #demo5 a, #demo6 a, #demo7 a, #demo8 a, #demo9 a, #demo10 a, #demo11 a {
+    color: gray;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#demo a:hover, #demo0 a:hover, #demo1 a:hover, #demo2 a:hover, #demo3 a:hover, #demo4 a:hover, #demo5 a:hover, #demo6 a:hover, #demo7 a:hover, #demo8 a:hover, #demo9 a:hover, #demo10 a:hover, #demo11 a:hover  {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.workPlaces {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0 10px 0;
+    padding-left: 4px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.workDate {
+    width: 30%;
+    /*min-width: 180px;*/
+    height: 30px;
+    color: #7b7b7b;
+    border: 1px solid darkgrey;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+    transition: all 1s;
+}
+
+.workName {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.workPosition {
+    margin: 0;
+    padding: 0;
+    color: gray;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    margin: 0;
+    width: 100%;
+}
+
+button {
+    width: 30%;
+    min-width: 200px;
+    height: 30px;
+    color: #7b7b7b;
+    border: 1px solid darkgrey;
+    border-radius: 6px;
+    background-color: white;
+    font-size: 18px;
+    transition: all 1s;
+}
+
+button:hover {
+    box-shadow: 0 0 10px gray;
+    background-color: #F9F9F9;
+}
+
+button:active {
+    width: 31%;
+    height: 28px;
+    background-color: #8E53C7;
+    color: white;
+    border: 2px solid;
+    /*transition: all 1s;*/
+}
+

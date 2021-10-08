@@ -219,8 +219,10 @@ li a {
 
 .descriptionBlock-img {
     display: flex;
+    flex-wrap: wrap;
     width: 42%;
     min-width: 400px;
+
     justify-content: center;
     /*border: 1px solid red;*/
 }
@@ -228,8 +230,10 @@ li a {
 .descriptionBlock-img img {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
-    height: auto;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    height: available;
     /*min-height: 450px;*/
     /*min-width: 400px;*/
 }
@@ -388,6 +392,16 @@ li a {
     align-items: center;
 }
 
+.container2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.container2 a:hover {
+    text-decoration: none;
+    color: black;
+}
+
 .buttonBrief {
     width: 200px;
     height: 40px;
@@ -537,6 +551,7 @@ li a {
 .priceGeneral td {
     border-right: 2px solid white;
     border-left: 2px solid white;
+    padding-left: 10px;
 }
 
 .priceGeneral th {
@@ -794,4 +809,8 @@ li a {
     display: flex;
     justify-content: left;
     min-width: 400px;
+}
+
+.block50percent h3 {
+    text-transform: uppercase;
 }

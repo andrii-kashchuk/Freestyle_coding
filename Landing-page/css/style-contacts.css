@@ -191,3 +191,125 @@ video {
         justify-content: center;
     }
 }
+
+.contactForm {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+
+#fs-frm {
+    transition: ease-in-out 1s;
+}
+
+/*form {
+    width: 100%;
+    !*border: 1px solid grey;*!
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    transition: ease-in-out 1s;
+    transition-delay: 0.3s;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}*/
+
+/*form input {
+    line-height: 40px;
+    border: 0;
+    padding: 10px;
+    border-radius: 4px;
+}*/
+
+/*
+form input:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.name, .email {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    min-width: 220px;
+    margin: 20px 20px 10px 20px;
+}
+
+textarea {
+    border: 0 solid;
+}
+
+.phoneForm {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 40px;
+    min-width: 220px;
+    margin: 20px 20px 10px 20px;
+}
+
+.question {
+    width: 90%;
+    height: 100px;
+    margin: 10px 20px 10px 20px;
+}
+*/
+
+
+.writeToAuthor {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.writeToAuthor button {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    width: 260px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.writeToAuthor button:hover {
+    box-shadow: 0 0 10px grey;
+
+}
+
+#btnHide {
+    transition: ease-in-out 1s;
+}
+/*
+
+#fs-frm .send {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    width: 30%;
+    min-width: 260px;
+    height: 40px;
+    border: 1px solid black;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+*/
+

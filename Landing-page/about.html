@@ -3,25 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт-визитка, лендинг за 7 дней - Обо мне</title>
+    <title>Сайт-визитка, лендинг от 7 дней - О Фрилансер КАА</title>
     <meta name="description" content="Сайт визитка, лендинг. Создаем сайты за 7 дней">
     <meta name="keywords" content="Сайт, лендинг, сайт визитка, создать сайт, создать лендинг, landing page">
-    <meta name="author" content="Andrii Kashchuk">
+    <meta name="author" content="Фрилансер КАА">
     <meta name="description" content="Заказать сайт визитку в Киеве, лучшая цена на создание сайта визитки -
-    веб студия kaa_veb_dev. Разработка сайта для малого бизнеса, стоимость изготовления. Продвижение сайта визитки,
+    веб студия Фрилансер КАА. Разработка сайта для малого бизнеса, стоимость изготовления. Продвижение сайта визитки,
     примеры дизайна."/>
     <meta property="og:locale" content="ru_RU"/>
     <meta property="og:type" content="article"/>
     <meta property="og:title" content="Сайт визитка цена, Заказать сайт визитку Киев недорого"/>
     <meta property="og:description" content="Заказать сайт визитку в Киеве, лучшая цена на создание сайта визитки -
-    веб студия kaa_veb_dev. Разработка сайта для малого бизнеса, стоимость изготовления. Продвижение сайта визитки,
+    веб студия Фрилансер КАА. Разработка сайта для малого бизнеса, стоимость изготовления. Продвижение сайта визитки,
     примеры дизайна."/>
     <meta property="og:url" content="https://www.landing-page.kaa.com.ua/index.html"/>
     <meta property="og:site_name" content="kaa_veb_dev"/>
     <!--<meta property="article:publisher" content="https://www.facebook.com/seo.design.ua/"/>-->
     <meta name="twitter:card" content="summary"/>
     <meta name="twitter:description" content="Заказать сайт визитку в Киеве, лучшая цена на создание сайта визитки -
-    веб студия kaa_veb_dev. Разработка сайта для малого бизнеса, стоимость изготовления. Продвижение сайта визитки,
+    веб студия Фрилансер КАА. Разработка сайта для малого бизнеса, стоимость изготовления. Продвижение сайта визитки,
     примеры дизайна."/>
     <meta name="twitter:title" content="Сайт визитка цена, Заказать сайт визитку Киев недорого"/>
     <!--<meta name="twitter:site" content="@seodesignkiev"/>-->
@@ -40,6 +40,25 @@
     <!--<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollup').fadeIn();
+                } else {
+                    $('.scrollup').fadeOut();
+                }
+            });
+
+            $('.scrollup').click(function(){
+                $("html, body").animate({ scrollTop: 0 }, 600);
+                return false;
+            });
+
+        });
+    </script>
 </head>
 <body>
     <div class="container-general">
@@ -49,7 +68,7 @@
                 <img src="assets/976604_appliances_cell%20phone_cellphone_mobile_mobilephone_icon.png" alt="">
             </div>
             <div class="phoneNumber">
-                <p>38 (067) 935-83-61 (Viber, Telegram, WhatsApp)</p>
+                <p>+38 (067) 982-61-14 (Viber, Telegram, WhatsApp)</p>
             </div>
         </div>
 
@@ -63,13 +82,13 @@
                     <li class="menu-accent min dropdown"><a href="index.html" class="dropbtn">Разработка сайтов</a>
                         <div class="dropdown-content">
                             <a href="vizitka.html">Сайт визитка</a>
-                            <a href="#">Landing page</a>
+                            <a href="landingpage.html">Landing page</a>
                         </div>
                     </li>
                     <!--<li>/</li>-->
                     <li class="min"><a href="price.html">Цены</a></li>
                     <!--<li>/</li>-->
-                    <li class="min"><a href="#">Портфолио</a></li>
+                    <li class="min"><a href="portfolio.html">Портфолио</a></li>
                     <!--<li>/</li>-->
                     <li class="min"><a href="about.html">О нас</a></li>
                     <!--<li>/</li>-->
@@ -100,9 +119,15 @@
             <div class="block70percent">
                 <h3>Вкладываю часть души в каждый проект</h3>
                 <p>
-                    В чем особенность веб агентства Seo-Design? Мы мыслим от общего к частному, а не наоборот.
+                    В чем особенность веб агентства Фрилансер КАА? Мы не классическое web агентство и не фрилансеры,
+                    мы группа единомышленников, которые делают качественно свою работу по адекватной стоимости. У
+                    нас нет офиса, все мы работаем удаленно. Соответственно за счет этого, стоимость наших работ
+                    ниже, чем в профессиональных веб агентствах, а качество выше, чем у обычных фрилансеров.
+                </p>
+                <p>
+                    Мы мыслим от общего к частному, а не наоборот.
                     Идем от цели к методам ее выполнения, строим стратегию от вершины пирамиды до её основы,
-                    не работаем на поток. При <a href="https://www.seo-design.ua/">создании сайтов</a> первое,
+                    не работаем на поток. При <a href="https://www.freelancer.kaa.com.ua/">создании сайтов</a> первое,
                     что мы делаем, &#8212; анализируем и формируем портрет пользователя. Только когда есть
                     понимание его мышления и ожиданий, возможно сделать идеальный инструмент для продаж.
                 </p>
@@ -110,7 +135,7 @@
                     Наша задача &#8212; оптимальное сочетание красоты и удобства. Не каждая красивая обувь удобная,
                     не правда ли? Сайт &#8212; это не обертка Вашего бизнеса, а инструмент, делающий продажи 24/7.
                     На сколько эффективно он это делает &#8212; показывает конверсия. А как много сайт может
-                    привлечь трафика зависит от <a href="/">раскрутки сайта</a>.
+                    привлечь трафика зависит от раскрутки сайта.
                 </p>
             </div>
         </div>
@@ -146,35 +171,35 @@
         <div class="prefooter">
             <div class="pf-block">
                 <h6>Услуги</h6>
-                <p><a href="#">Разработка сайтов</a></p>
-                <p><a href="#">Сайт визитка</a></p>
-                <p><a href="#">Landing page</a></p>
+                <p><a href="index.html">Создание сайтов</a></p>
+                <p><a href="vizitka.html">Сайт визитка</a></p>
+                <p><a href="landingpage.html">Лендинг пейдж</a></p>
             </div>
             <div class="pf-block">
                 <h6>Стоимость услуг</h6>
-                <p><a href="#">Цена создания сайта</a></p>
+                <p><a href="price.html">Цена создания сайта</a></p>
             </div>
             <div class="pf-block">
-                <h6>Фрилансер kaa</h6>
-                <p><a href="#">Бриф на разработку сайта</a></p>
-                <p><a href="#">Контакты</a></p>
+                <h6>Фрилансер КАА</h6>
+                <p><a href="brief.html">Бриф на разработку сайта</a></p>
+                <p><a href="contacts.html">Контакты</a></p>
             </div>
             <div class="pf-block">
                 <h6>Контакты</h6>
-                <p>38 (067) 935-83-61</p>
+                <p>+38 (067) 982-61-14</p>
                 <p>Украина, Киев</p>
             </div>
         </div>
 
         <div class="footer">
-            <p>&copy; 2021 Разработка и создание сайтов Киев. Фрилансер kaa</p>
+            <p>&copy; 2021 Разработка и создание сайтов Киев. Фрилансер КАА</p>
         </div>
 
 <!-- Подключаем JS слайдера -->
 <script defer src="js/simple-adaptive-slider.js"></script>
 <script type="text/css" src="js/script.js"></script>
 </div>
-
+    <a href="#" class="scrollup">Наверх</a>
 </body>
 </html>
 

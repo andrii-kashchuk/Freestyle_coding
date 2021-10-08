@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99914649-8344-4c89-b68a-13a3e5084e22" name="Default Changelist" comment="Web version of my CV. Created by myself.">
-      <change afterPath="$PROJECT_DIR$/CV/css/style-check.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CV/cv.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CV/js/script-check.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing-page/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing-page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Landing-page/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeCodeCamp/Build a Product Landing Page/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FreeCodeCamp/Build a Product Landing Page/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/brief.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/css/style-brief.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/css/style-landingpage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/css/style-portfolio.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/js/formSendEmail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/landingpage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Landing-page/portfolio.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CV/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CV/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/CV/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandMade/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandMade/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandMade/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandMade/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandMade/handmade.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/handmade.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandMade/howtoorder.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/howtoorder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HandMade/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/HandMade/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV/cv.html" beforeDir="false" afterPath="$PROJECT_DIR$/CV/cv.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing-page/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/Landing-page/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing-page/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/Landing-page/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing-page/css/style-contacts.css" beforeDir="false" afterPath="$PROJECT_DIR$/Landing-page/css/style-contacts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing-page/css/style-vizitka.css" beforeDir="false" afterPath="$PROJECT_DIR$/Landing-page/css/style-vizitka.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing-page/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Landing-page/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing-page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Landing-page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing-page/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Landing-page/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing-page/price.html" beforeDir="false" afterPath="$PROJECT_DIR$/Landing-page/price.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Landing-page/vizitka.html" beforeDir="false" afterPath="$PROJECT_DIR$/Landing-page/vizitka.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +32,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -65,6 +69,7 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Andrey\Freestyle_coding\Landing-page\css" />
       <recent name="C:\Users\Andrey\Freestyle_coding\Landing-page" />
+      <recent name="C:\Users\Andrey\Freestyle_coding\Landing-page\js" />
       <recent name="C:\Users\Andrey\Freestyle_coding\HandMade\ru" />
     </key>
   </component>
@@ -93,6 +98,19 @@
       <workItem from="1631699491239" duration="13954000" />
       <workItem from="1631789004754" duration="10200000" />
       <workItem from="1631862947273" duration="26537000" />
+      <workItem from="1632118187716" duration="8804000" />
+      <workItem from="1632204436689" duration="11975000" />
+      <workItem from="1632242726582" duration="19441000" />
+      <workItem from="1632377416825" duration="21344000" />
+      <workItem from="1632463730950" duration="9345000" />
+      <workItem from="1632675739092" duration="15809000" />
+      <workItem from="1632766689272" duration="10092000" />
+      <workItem from="1632855490589" duration="577000" />
+      <workItem from="1632927274214" duration="11606000" />
+      <workItem from="1633440948581" duration="4634000" />
+      <workItem from="1633518822948" duration="12183000" />
+      <workItem from="1633676211892" duration="4614000" />
+      <workItem from="1633691626598" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="Web version of my CV. Created by myself.">
       <created>1629118172110</created>

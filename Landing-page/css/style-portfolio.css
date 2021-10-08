@@ -1,0 +1,95 @@
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.businessCard {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.businessCard h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: normal;
+    color: black;
+}
+
+.businessCard p {
+    text-align: center;
+}
+
+.businessCard hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    background-color: grey; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    color: grey;
+    width: 30%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.line hr {
+    border: none; /* Убираем границу для браузера Firefox */
+    background-color: grey; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+    color: grey;
+    width: 100%;
+}
+
+.portfolio {
+    width: 40%;
+    min-width: 400px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.portfolio:hover {
+    box-shadow: 0 0 10px grey;
+}
+
+.portfolio h4 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.portfolio img {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    opacity: 30%;
+    transition: 0.5s;
+    transition-delay: 0.1s;
+}
+
+.portfolio img:hover {
+    opacity: 100%;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: black;
+}
+
+.portfolio a:hover {
+    color: black;
+    text-shadow: 0 0 10px grey;
+    text-decoration: underline;
+}
+
+/*
+.portfolio:hover {
+    width: 60%;
+    height: auto;
+}*/
