@@ -9,14 +9,14 @@
     display: flex;
     flex-wrap: wrap;
     width: 40%;
-    min-width: 400px;
+    /*min-width: 400px;*/
 }
 
 .picture {
     display: flex;
     flex-wrap: wrap;
     width: 42%;
-    min-width: 400px;
+    /*min-width: 400px;*/
 }
 
 .picture img {
@@ -29,15 +29,17 @@
 }
 
 .picture-txt {
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
     margin-bottom: 20px;
     margin-top: 20px;
     border: 4px double grey;
     border-radius: 4px;
+    box-sizing: border-box;
 }
 
 .picture-txt h3 {
@@ -49,4 +51,55 @@
     flex-wrap: wrap;
     text-align: center;
     padding: 10px;
+}
+
+
+/* -------------------------------- @media ---------------------------------------- */
+
+@media screen and (min-width: 200px) and (max-width: 850px) {
+    .main {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .panel-body {
+        width: 90%;
+    }
+
+    .inbound-form-wrapper {
+        width: 90%;
+        /*min-width: 230px;*/
+    }
+
+    .picture img {
+        width: 90%;
+    }
+
+    .contacts {
+        flex-direction: column;
+    }
+
+    .picture {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        /*min-width: 400px;*/
+    }
+
+    .picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    .picture-txt {
+        display: flex;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 }

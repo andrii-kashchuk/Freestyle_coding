@@ -47,7 +47,6 @@
     padding: 5px;
     color: black;
     transition-delay: 0.7s;
-    transition: ease-in-out 0.4s;
     /*border: 1px solid grey;*/
 }
 
@@ -66,6 +65,7 @@ li a {
 .dropdown-content {
     display: none; /* скрывает выпадающее меню */
     position: absolute;
+    width: 100%;
     min-width: 180px;
     z-index: 1;
     transition-delay: 0.5s;
@@ -81,6 +81,7 @@ li a {
     text-align: left;
     transition-delay: 0.5s;
     transition: ease-in-out 0.4s;
+    border: 1px solid grey;
     border-radius: 4px;
     /*box-shadow: 0 0 10px blueviolet;*/
 }
@@ -90,10 +91,13 @@ li a {
     transition-delay: 0.4s;
     transition: ease-in-out 0.4s;
     border-radius: 4px;
+    background-color: whitesmoke;
 }
 
 .dropdown:hover .dropdown-content { /* при наведении на dropdown отображает контент класса dropdown-content */
     display: block; /* отображает выпадающее меню*/
+    transition: ease-in-out 1s;
+    transition-delay: 0.4s;
 }
 
 .dropdown-content p {
@@ -114,7 +118,7 @@ li a {
     color: black;
 }
 
-/*.menu li:hover,*/ .menu a:hover {
+.menu a:hover {
     color: black;
     cursor: pointer;
     text-shadow: 0 0 4px grey;
@@ -224,7 +228,7 @@ li a {
 
 .cont1Img {
     width: 45%;
-    min-width: 400px;
+    /*min-width: 400px;*/
 }
 
 .cont1Img img {
@@ -234,7 +238,7 @@ li a {
 
 .cont1Txt {
     width: 45%;
-    min-width: 400px;
+    /*min-width: 400px;*/
 }
 
 .cont1Txt p {
@@ -254,6 +258,7 @@ ul {
 }
 
 .buttons {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -347,7 +352,6 @@ ul {
 .blockLeft {
     display: flex;
     width: 45%;
-    min-width: 400px;
     flex-wrap: wrap;
     align-items: center;
     /*border: 1px solid black;
@@ -414,14 +418,14 @@ ul {
     justify-content: space-around;
     /*margin-top: 30px;
     margin-bottom: 30px;*/
-    margin: o auto;
+    margin: 0 auto;
 }
 
 .blockChangeText button {
     width: 200px;
     height: 40px;
     text-align: center;
-    border: 0px;
+    border: 0;
     border-radius: 4px;
     margin-bottom: 30px;
     transition: 0.2s;
@@ -445,7 +449,6 @@ ul {
     width: 60%;
     padding: 20px;
     text-align: justify;
-    min-width: 400px;
 }
 
 .blockChangeTextLeft h2 {
@@ -478,7 +481,7 @@ ul {
 }
 
 .prefooter {
-    min-height: 180px;
+    /*min-height: 180px;*/
     width: 100%;
     border: 0 solid grey;
     background-color: #F7F7F7;
@@ -487,6 +490,7 @@ ul {
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 40px;
+    box-sizing: border-box;
 }
 
 .pf-block {
@@ -527,9 +531,9 @@ ul {
     text-align: center;
 }
 
-.footer {
+/*.footer {
     background-image: url("");
-}
+}*/
 
 .scrollup {
     width:40px;
@@ -542,3 +546,402 @@ ul {
     text-indent:-9999px;
     background: url('../assets/icon_top.png') no-repeat;
 }
+
+
+
+
+/* ----------------------------------------------- @media --------------------------------------------- */
+
+
+
+
+
+
+@media screen and (min-width: 1366px){                           /* @media screen and (min-width: 1366px) */
+
+    .container2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+
+    .blockMiddle {
+        display: flex;
+        justify-content: center;
+        width: 23%;
+        min-height: 300px;
+        flex-wrap: wrap;
+        min-width: 300px;
+        text-align: center;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    .blockRight {
+        display: flex;
+        justify-content: center;
+        width: 23%;
+        min-height: 300px;
+        min-width: 300px;
+        flex-wrap: wrap;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+@media screen and (min-width: 851px) and (max-width: 1365px) { /* @media (min-width: 851px) and (max: 1365px) */
+
+    .container2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .blockLeft {
+        display: flex;
+        width: 30%;
+        box-sizing: border-box;
+    }
+
+    .blockLeft img {
+        width: 100%;
+        height: auto;
+
+    }
+    .blockMiddle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        height: auto;
+        flex-wrap: wrap;
+        text-align: center;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    .blockRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        height: auto;
+        flex-wrap: wrap;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+.containerHeader h2 {
+        text-align: left;
+    }
+
+    .blockChangeTextLeft {
+        box-sizing: border-box;
+        margin: 10px;
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (min-width: 851px) and (max-width: 1100px) {
+    .container2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .blockLeft {
+        display: flex;
+        width: 30%;
+        box-sizing: border-box;
+    }
+
+    .blockLeft img {
+        width: 100%;
+        height: auto;
+
+    }
+    .blockMiddle {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        height: auto;
+        flex-wrap: wrap;
+        text-align: center;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+
+    .blockRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 30%;
+        height: auto;
+        flex-wrap: wrap;
+        border: 1px solid lightgrey;
+        border-radius: 4px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 850px) {
+
+    html {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .blockChangeTextLeft {
+        width: 100%;
+    }
+
+    .container-general {
+        width: 100%;
+    }
+
+    .contacts {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .phone {
+        height: 100%;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone img {
+        height: 100%;
+    }
+
+    .phoneNumber {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        width: auto;
+    }
+
+    .phoneNumber p {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu li {
+        width: 90%;
+        height: 60px;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 5px;
+        color: black;
+        transition-delay: 0.7s;
+        transition: ease-in-out 0.4s;
+        border: 1px solid grey;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    .menu li:hover {
+        box-shadow: 0 0 8px grey;
+    }
+
+    .menu li a:hover {
+        text-decoration: none;
+    }
+
+    .containerHeader h2 {
+        text-align: center;
+    }
+
+    .container1 {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        box-sizing: border-box;
+    }
+
+    .blockLeft {
+        width: 90%;
+        height: auto;
+    }
+
+    .blockLeft img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cont1Img {
+        width: 90%;
+        /*min-width: 200px;*/
+    }
+    .cont1Img img {
+        width: 90%;
+        height: auto;
+    }
+
+    .cont1Txt {
+        width: 80%;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cont1Txt h2 {
+        text-align: center;
+    }
+
+    .blockLeft {
+        width: 90%;
+    }
+
+    .blockLeft img {
+        width: 100%;
+    }
+
+    .container2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .blockChangeTextRight {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        box-sizing: border-box;
+    }
+
+    .blockChangeTextRight img {
+        width: 100%;
+        height: auto;
+        max-width: none;
+    }
+
+    .blockMiddle {
+        width: 60%;
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .blockRight {
+        width: 60%;
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .blockChangeText {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blockChangeText button {
+        width: 80%;
+    }
+
+    .blockChangeTextLeft {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        padding: 10px;
+        text-align: justify;
+        box-sizing: border-box;
+    }
+
+    .blockChangeTextLeft h2 {
+        text-align: center;
+    }
+
+}
+
+
+

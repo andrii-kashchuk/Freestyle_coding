@@ -33,7 +33,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 30%;
-    min-width: 350px;
+    /*min-width: 350px;*/
     /*border: 1px solid silver;*/
     padding: 30px;
 }
@@ -42,7 +42,7 @@
     display: flex;
     flex-wrap: wrap;
     width: 40%;
-    min-width: 350px;
+    /*min-width: 350px;*/
     /*border: 1px solid silver;*/
     padding: 30px;
 }
@@ -52,7 +52,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 60%;
-    min-width: 400px;
+    /*min-width: 400px;*/
     /*border: 1px solid silver;*/
     padding: 30px;
 }
@@ -90,3 +90,184 @@
     background: linear-gradient(to right, black, white);
     padding-left: 20px;
 }
+
+
+
+/* --------------------------------------- @media ------------------------------------------- */
+
+@media screen and (min-width: 200px) and (max-width: 850px) {
+
+    .container9 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .block40percent, .block70percent {
+        width: 100%;
+    }
+
+    .block40percent {
+        padding: 0;
+    }
+
+    .container10 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .block30percent {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .container10 h2 {
+        margin-bottom: 30px;
+    }
+
+
+    .container-general {
+        width: 100%;
+    }
+
+    .contacts {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .phone {
+        height: 100%;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone img {
+        height: 100%;
+    }
+
+    .phoneNumber {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        width: auto;
+    }
+
+    .phoneNumber p {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu li {
+        width: 90%;
+        height: 60px;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 5px;
+        color: black;
+        transition-delay: 0.7s;
+        transition: ease-in-out 0.4s;
+        border: 1px solid grey;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    .menu li:hover {
+        box-shadow: 0 0 8px grey;
+    }
+
+    .menu li a:hover {
+        text-decoration: none;
+    }
+
+    .containerHeader h2 {
+        text-align: center;
+    }
+
+}
+
+
+@media screen and (min-width: 851px) and (max-width: 1050px) {
+
+    .container9 {
+        padding: 0;
+    }
+
+    .container10 h2 {
+        display: flex;
+        width: 90%;
+        line-height: 40px;
+        text-transform: uppercase;
+        color: white;
+        background: linear-gradient(to right, black, white);
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+
+    .block40percent {
+        width: 90%;
+        padding: 0;
+    }
+
+    .block70percent {
+        width: 90%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

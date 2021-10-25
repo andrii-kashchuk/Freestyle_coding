@@ -45,7 +45,7 @@
 
 .portfolio {
     width: 40%;
-    min-width: 400px;
+    /*min-width: 400px;*/
     border: 1px solid grey;
     border-radius: 4px;
     margin: 10px;
@@ -88,8 +88,112 @@
     text-decoration: underline;
 }
 
-/*
-.portfolio:hover {
-    width: 60%;
-    height: auto;
-}*/
+
+
+
+
+/* --------------------------------------- @media ------------------------------------------- */
+
+@media screen and (min-width: 200px) and (max-width: 850px) {
+
+    .container-general {
+        width: 100%;
+    }
+
+    .contacts {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .phone {
+        height: 100%;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone img {
+        height: 100%;
+    }
+
+    .phoneNumber {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        width: auto;
+    }
+
+    .phoneNumber p {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu li {
+        width: 90%;
+        height: 60px;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 5px;
+        color: black;
+        transition-delay: 0.7s;
+        transition: ease-in-out 0.4s;
+        border: 1px solid grey;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    .menu li:hover {
+        box-shadow: 0 0 8px grey;
+    }
+
+    .menu li a:hover {
+        text-decoration: none;
+    }
+
+    .portfolio {
+        width: 90%;
+    }
+
+}
+
+
+@media screen and (min-width: 851px) and (max-width: 1050px) {
+
+
+
+}

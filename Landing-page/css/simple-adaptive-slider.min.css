@@ -1,8 +1,7 @@
 .slider {
     position: relative;
     overflow: hidden;
-    width: 92%;
-    min-width: 400px;
+    width: 92.sliderTxt h6%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -11,7 +10,6 @@
     position: relative;
     overflow: hidden;
     background-color: white;
-    /*padding: 20px;*/
 }
 
 .slider__items {
@@ -25,8 +23,6 @@
     flex: 0 0 100%;
     width: 100%;
     height: 100%;
-    min-height: 400px;
-    min-width: 400px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -34,53 +30,7 @@
     justify-content: center;
 }
 
-.sliderImg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
-    width: 45%;
-    height: 100%;
-    min-width: 400px;
-    padding-right: 20px;
-    /*border: 1px solid blueviolet;*/
 
-}
-
-.sliderImg img {
-    width: 100%;
-    height: auto;
-}
-
-.sliderTxt {
-    width: 45%;
-    min-width: 450px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-    /*padding-left: 20px;
-    padding-right: 20px;*/
-    text-align: justify;
-    /*border: 1px solid yellow;*/
-}
-
-.sliderTxt h6 {
-    width: 100%;
-    text-transform: uppercase;
-    font-size: 30px;
-    text-align: center;
-    /* margin-bottom: 20px;*/
-    margin-bottom: 20px;
-    min-width: 430px;
-    /*border: 1px solid red;*/
-}
-
-.sliderTxt p {
-    width: 100%;
-    /*border: 1px solid green;*/
-    height: auto;
-    min-width: 400px;
-}
 
 
 .slider__control {
@@ -121,3 +71,37 @@
 .slider__indicator{flex:0 1 auto;width:30px;height:4px;margin-right:3px;margin-left:3px;background-color:rgba(255,255,255,.5);background-clip:padding-box;border-top:10px solid transparent;border-bottom:10px solid transparent;cursor:pointer}
 
 .slider__indicator_active{background-color:#fff}
+
+
+
+/* ---------------------------------------------- @media ------------------------------------------------ */
+
+
+@media screen and (min-width: 200px) and (max-width: 850px) {
+    .slider__item {
+        flex: 0 0 100%;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sliderTxt {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 10px;
+        text-align: justify;
+        box-sizing: border-box;
+    }
+
+    .sliderTxt p {
+        min-width: unset;
+    }
+
+}

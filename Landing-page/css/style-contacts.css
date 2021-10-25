@@ -21,7 +21,7 @@
 
 .leftBlock {
     width: 22%;
-    min-width: 300px;
+    /*min-width: 300px;*/
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -32,7 +32,7 @@
 
 .middleBlock {
     width: 22%;
-    min-width: 300px;
+    /*min-width: 300px;*/
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -43,16 +43,10 @@
 
 .rightBlock {
     width: 50%;
-    min-width: 400px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-    /*padding: 30px;*/
-    /*background-color: whitesmoke;*/
-    /*border-radius: 4px;*/
-    /*margin-left: 10px;*/
-    /*border: 1px solid cornflowerblue;*/
 }
 
 .blockImgTxt {
@@ -145,7 +139,7 @@ form input:hover {
     flex-direction: row;
     justify-content: space-around;
     width: 40%;
-    min-width: 220px;
+    /*min-width: 220px;*/
     margin: 20px 20px 10px 20px;
 }
 
@@ -203,68 +197,6 @@ video {
     transition: ease-in-out 1s;
 }
 
-/*form {
-    width: 100%;
-    !*border: 1px solid grey;*!
-    border-radius: 4px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
-    background-color: whitesmoke;
-    transition: ease-in-out 1s;
-    transition-delay: 0.3s;
-}
-
-fieldset {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}*/
-
-/*form input {
-    line-height: 40px;
-    border: 0;
-    padding: 10px;
-    border-radius: 4px;
-}*/
-
-/*
-form input:hover {
-    box-shadow: 0 0 10px grey;
-}
-
-.name, .email {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    height: 40px;
-    min-width: 220px;
-    margin: 20px 20px 10px 20px;
-}
-
-textarea {
-    border: 0 solid;
-}
-
-.phoneForm {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    height: 40px;
-    min-width: 220px;
-    margin: 20px 20px 10px 20px;
-}
-
-.question {
-    width: 90%;
-    height: 100px;
-    margin: 10px 20px 10px 20px;
-}
-*/
-
-
 .writeToAuthor {
     display: flex;
     flex-wrap: wrap;
@@ -295,21 +227,210 @@ textarea {
 #btnHide {
     transition: ease-in-out 1s;
 }
-/*
 
-#fs-frm .send {
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    background-color: white;
-    color: black;
-    border-radius: 4px;
-    width: 30%;
-    min-width: 260px;
-    height: 40px;
-    border: 1px solid black;
-    font-size: 16px;
-    text-transform: uppercase;
+
+
+
+
+
+
+/* --------------------------------------- @media ------------------------------------------- */
+
+@media screen and (min-width: 200px) and (max-width: 1280px) {
+
+    .container-general {
+        width: 100%;
+    }
+
+    .contacts {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .phone {
+        height: 100%;
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .phone img {
+        height: 100%;
+    }
+
+    .phoneNumber {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: auto;
+        width: auto;
+    }
+
+    .phoneNumber p {
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav {
+        width: 90%;
+    }
+
+    .menu ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu li {
+        width: 90%;
+        height: 60px;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 5px;
+        color: black;
+        transition-delay: 0.7s;
+        transition: ease-in-out 0.4s;
+        border: 1px solid grey;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+
+    .menu li:hover {
+        box-shadow: 0 0 8px grey;
+    }
+
+    .menu li a:hover {
+        text-decoration: none;
+    }
+
+    .main {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .leftBlock {
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 30px;
+    }
+
+    .middleBlock {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+
+    .rightBlock {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blockImgTxt {
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 4px;
+        transition: ease-in-out 0.5s;
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 960px;
+        max-height: 540px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .leftBlock {
+        margin-bottom: 0;
+    }
 }
-*/
 
+
+@media screen and (min-width: 200px) and (max-width: 380px) {
+    .blockImgTxt {
+        padding: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 4px;
+        transition: ease-in-out 0.5s;
+        border: 1px solid black;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .blockImg {
+        width: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .blockImg img {
+        width: 50%;
+    }
+
+    .blockTxt h5, .blockTxt p {
+        text-align: center;
+    }
+
+    .leftBlock {
+        margin-bottom: 0;
+    }
+}

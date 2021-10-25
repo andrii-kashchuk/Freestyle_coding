@@ -4,7 +4,6 @@
     margin: 0 auto;
     width: 100%;
     height: auto;
-    /*border: 1px solid grey;*/
 }
 
 
@@ -24,7 +23,7 @@
     color: black;
 }
 
-/*.menu li:hover,*/ .menu a:hover {
+.menu a:hover {
                         color: blueviolet;
                         cursor: pointer;
                         text-shadow: 0 0 4px grey;
@@ -34,7 +33,7 @@
 .menu-accent {
     border: 1px solid lightgrey;
     border-radius: 2px;
-    min-width: 160px;
+    /*min-width: 160px;*/
 }
 
 .menu-accent:hover, .menu-accent a:hover {
@@ -51,7 +50,6 @@
     height: 30px;
     display: flex;
     flex-direction: row;
-    /*border: 1px solid grey;*/
     justify-content: flex-end;
     padding-right: 30px;
     margin-top: 10px;
@@ -61,7 +59,6 @@
     display: flex;
     width: 30px;
     height: 30px;
-    /*border: 1px solid lightgrey;*/
 }
 
 .phone {
@@ -72,20 +69,18 @@
     height: 30px;
     display: flex;
     font-size: 14px;
-    /*border: 1px solid red;*/
-
 }
 
 .businessCard {
+    width: 100%;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: center;
+    box-sizing: border-box;
 }
 
 .businessCard h2 {
-    width: 100%;
     text-transform: uppercase;
     text-align: center;
     font-weight: normal;
@@ -117,17 +112,13 @@
     width: 100%;
     margin-top: 20px;
     justify-content: space-around;
-    /*border: 1px solid red;*/
 }
 
 .descriptionBlock-img {
     display: flex;
     flex-wrap: wrap;
     width: 42%;
-    /*min-width: 400px;*/
-
     justify-content: center;
-    /*border: 1px solid red;*/
 }
 
 .descriptionBlock-img img {
@@ -144,10 +135,6 @@
     flex-wrap: wrap;
     width: 50%;
     height: 100%;
-    min-height: 450px;
-    /*min-width: 400px;*/
-    /*width: 48%;*/
-    /*border: 1px solid red;*/
 }
 
 .changeText {
@@ -157,19 +144,19 @@
 }
 
 .carousel-item {
-    min-height: 400px;
-    max-width: 100%;
-
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .carousel-item ul {
-    /*min-width: 400px;*/
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
 .carousel-inner {
-    padding: 10px 40px 30px 40px;
+    padding: 10px 70px 30px 70px;
     text-align: justify-all;
 }
 
@@ -192,6 +179,7 @@
     flex-wrap: wrap;
     margin-top: 30px;
     margin-bottom: 30px;
+    box-sizing: border-box;
 }
 
 .container1top, .container1bottom {
@@ -207,12 +195,15 @@
 }
 
 .container1top h3 {
+    display: flex;
+    width: 100%;
     text-transform: uppercase;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container1bottom {
-    /*width: 100%;*/
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -224,16 +215,21 @@
     flex-wrap: wrap;
     flex-direction: column;
     width: 24%;
-    /*min-width: 360px;*/
     justify-content: space-around;
     transition: ease-in-out 0.5s;
     padding: 10px;
     margin-bottom: 0;
-    /*border: 1px solid grey;*/
+}
+
+.bottom1:hover, .bottom2:hover, .bottom3:hover {
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+    border: 0 solid red;
+    background-color: #F7F7F7;
 }
 
 .bottom1img, .bottom2img, .bottom3img {
-    min-width: 60px;
+    min-height: 40px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -248,7 +244,7 @@
 }
 
 .bottom1img img, .bottom2img img, .bottom3img img {
-    width: 30%;
+    width: 20%;
 }
 
 .bottom1txt, .bottom2txt, .bottom3txt {
@@ -274,10 +270,10 @@
     width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-top: 0;
+    /*margin-bottom: 30px;*/
     align-items: center;
 }
-
 
 .container2 a {
     text-decoration: none;
@@ -290,7 +286,7 @@
 }
 
 .buttonBrief {
-    width: 300px;
+    width: 200px;
     height: 40px;
     border: 1px solid black;
     color: black;
@@ -312,7 +308,7 @@
     width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     margin-top: 30px;
     align-items: center;
     padding-bottom: 20px;
@@ -322,15 +318,17 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    min-height: 200px;
+    justify-content: center;
+    /*min-height: 200px;*/
 }
 
-.cont3line1 {
+/*.cont3line1 {
     min-height: 30px;
-}
+}*/
 
 .cont3line1 h3 {
+    width: 100%;
+    flex-wrap: wrap;
     text-transform: uppercase;
     text-align: center;
 }
@@ -341,54 +339,29 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .block-1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    text-align: left;
-    width: 35%;
-    /*min-width: 400px;*/
-    background-color: white;
+    width: 30%;
+    min-height: 60px;
+    background-color: #F7F7F7;
     border-radius: 4px;
     padding: 20px;
-    margin: 20px;
-    border: 1px solid black;
-    transition: ease-in-out 0.3s;
-}
-
-.block-1:hover {
-    background-color: #F7F7F7;
-}
-
-.icon-img {
-    width: 20%;
-    /*min-width: 50px;*/
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-}
-
-.icon-img img {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    /*min-width: 50px;*/
-    height: auto;
+    margin-bottom: 20px;
 }
 
 .icon-text {
-    width: 70%;
-    /*min-width: 150px;*/
     display: flex;
+    flex-direction: row;
     text-transform: uppercase;
     align-items: center;
-    justify-content: center;
-    font-size: 16px;
+
+}
+
+.icon-text img {
+    width: 30%;
+    height: available;
 }
 
 .icon-text h6 {
@@ -424,29 +397,23 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    margin-top: 0;
     margin-bottom: 30px;
     align-items: center;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
 }
 
 .priceGeneral {
     width: 50%;
-    /*min-width: 400px;*/
     height: auto;
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
-    /*border: 1px solid grey;*/
-    /*padding: 10px;*/
 }
 
 .priceGeneral table {
     display: flex;
     width: 100%;
-    max-width: 400px;
-    /*min-width: 420px;*/
-    /*border: 1px solid grey;*/
-    /*padding: 10px;*/
 }
 
 .priceGeneral td, .priceGeneral th {
@@ -456,6 +423,7 @@
 .priceGeneral td {
     border-right: 2px solid white;
     border-left: 2px solid white;
+    padding-left: 10px;
 }
 
 .priceGeneral th {
@@ -464,23 +432,15 @@
 }
 
 .priceImg {
-    /*max-width: 100%;*/
-    /*min-height: 400px;*/
-    /*min-width: 400px;*/
-    /*max-height: 400px;*/
     width: 40%;
     display: flex;
     justify-content: center;
-    /*min-height: 300px;*/
-    /*border: 1px solid grey;*/
     padding: 10px;
 }
 
 .priceImg img {
     max-width: 100%;
     max-height: 400px;
-    /*min-width: 400px;*/
-    /*margin-top: 20px;*/
 }
 
 .color {
@@ -490,7 +450,6 @@
 .tablePrice {
     display: flex;
     justify-content: center;
-    /*min-width: 140px;*/
 }
 
 .nameTable {
@@ -528,13 +487,11 @@
 
 .explainImg {
     width: 40%;
-    /*min-width: 360px;*/
     margin-top: 20px;
 }
 
 .explainImg img {
     width: 100%;
-    /*min-width: 360px;*/
     margin-top: 20px;
     border-radius: 4px;
     margin-bottom: 20px;
@@ -542,7 +499,6 @@
 
 .explainTxt {
     width: 50%;
-    /*min-width: 360px;*/
     display: flex;
     flex-wrap: wrap;
     text-align: justify;
@@ -571,37 +527,29 @@
     display: flex;
     flex-wrap: wrap;
     width: 45%;
-    /*min-width: 300px;*/
-    /*margin-top: 20px;*/
-    /*border-right: 1px solid black;*/
 }
 
 .stageTxt {
     width: 45%;
     min-height: 40px;
-    /*min-width: 450px;*/
     display: flex;
     flex-wrap: wrap;
     text-align: justify;
-    /*border-right: 1px solid black;*/
     padding: 20px;
 }
 
 .stageTxt h6 {
-    width: 45%;
+    width: 100%;
     min-height: 40px;
-    /*min-width: 450px;*/
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    /*border-right: 1px solid black;*/
     padding: 20px;
 }
 
 .stageImg img {
     width: 100%;
     min-height: 40px;
-    /*min-width: 300px;*/
     margin-top: 20px;
     border-radius: 4px;
     margin-bottom: 20px;
@@ -629,19 +577,12 @@
 .sliderImg {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;
-    /*min-width: 400px;*/
-    /*margin-top: 20px;*/
-    /*border-right: 1px solid black;*/
+    width: 100%;
 }
 
 .sliderImg img {
     width: 100%;
-    min-height: 40px;
-    /*min-width: 300px;*/
-    /*margin-top: 20px;*/
     border-radius: 4px;
-    /*margin-bottom: 20px;*/
 }
 
 .container8 {
@@ -670,7 +611,6 @@
     display: flex;
     flex-direction: column;
     width: 45%;
-    /*min-width: 400px;*/
     padding: 20px;
 }
 
@@ -678,7 +618,6 @@
     display: flex;
     flex-direction: column;
     width: 55%;
-    /*min-width: 400px;*/
     padding: 20px;
 }
 
@@ -686,7 +625,6 @@
     display: flex;
     flex-direction: column;
     width: 50%;
-    /*min-width: 400px;*/
     padding: 20px;
     background-color: white;
     height: auto;
@@ -706,208 +644,458 @@
 .block50percent ul {
     display: flex;
     justify-content: left;
-    /*min-width: 420px;*/
 }
 
 .block50percent ul li {
     display: flex;
     justify-content: left;
-    /*min-width: 400px;*/
+}
+
+.block50percent h3 {
+    text-transform: uppercase;
 }
 
 
 
+.sliderImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 45%;
+    height: 100%;
+    padding-right: 20px;
+}
+
+.sliderImg img {
+    width: 100%;
+    height: auto;
+}
 
 
-/* --------------------------------------- @media ------------------------------------------- */
 
-@media screen and (min-width: 200px) and (max-width: 850px) {
+.sliderTxt {
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    /*padding-left: 20px;
+    padding-right: 20px;*/
+    text-align: justify;
+    /*border: 1px solid yellow;*/
+}
 
-    .container-general {
+.sliderTxt h6 {
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    /* margin-bottom: 20px;*/
+    margin-bottom: 20px;
+    /*border: 1px solid red;*/
+}
+
+.sliderTxt p {
+    width: 100%;
+    /*border: 1px solid green;*/
+    height: auto;
+}
+
+
+/* ---------------------------------------------- @media ------------------------------------------------ */
+
+@media screen and (max-width: 1100px) {
+
+    body {
         width: 100%;
-    }
-
-    .contacts {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: auto;
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .phone {
-        height: 100%;
-        width: auto;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .phone img {
-        height: 100%;
-    }
-
-    .phoneNumber {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        height: auto;
-        width: auto;
-    }
-
-    .phoneNumber p {
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 0;
-        margin: 0;
-    }
-
-    .menu {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-
-    nav {
-        width: 90%;
-    }
-
-    .menu ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .menu li {
-        width: 90%;
-        height: 60px;
-        font-size: 14px;
-        text-transform: uppercase;
-        padding: 5px;
-        color: black;
-        transition-delay: 0.7s;
-        transition: ease-in-out 0.4s;
-        border: 1px solid grey;
-        box-sizing: border-box;
-        margin-top: 10px;
-    }
-
-    .menu li:hover {
-        box-shadow: 0 0 8px grey;
-    }
-
-    .menu li a:hover {
-        text-decoration: none;
-    }
-
-    .descriptionBlock {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-
-    .descriptionBlock-img {
-        display: flex;
-        flex-wrap: wrap;
-        width: 90%;
-        justify-content: center;
-    }
-
-    .descriptionBlock-img img {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-self: center;
-        width: 100%;
-        height: available;
-    }
-
-    .descriptionBlock-text {
-        display: flex;
-        flex-wrap: wrap;
-        width: 90%;
-        height: 100%;
-    }
-
-    .businessCard {
-        margin-top: 30px;
     }
 
     .container1bottom {
         width: 100%;
         display: flex;
-        flex-wrap: wrap;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-bottom: 0;
-    }
-
-    .bottom1txt, .bottom2txt, .bottom3txt {
-        width: 80%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: center;
-        text-align: justify;
     }
 
     .bottom1, .bottom2, .bottom3 {
+        width: 80%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 80%;
         justify-content: center;
-        align-items: center;
         transition: ease-in-out 0.5s;
         padding: 10px;
-        margin-bottom: 0;
-    }
-
-    .cont3line2 {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .block-1 {
-        width: 80%;
-        justify-content: space-between;
-    }
-
-    .icon-img img {
-        min-width: 50px;
-    }
-
-    .buttonBrief {
-        width: 80%;
-    }
-
-    .stageTxt {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .stageTxt h6 {
-        width: 100%;
+        margin-bottom: 20px;
+        box-sizing: border-box;
     }
 
     .bottom1img img, .bottom2img img, .bottom3img img {
-        width: 30%;
+        width: 10%;
+        min-width: 40px;
     }
 
+    .bottom1txt, .bottom2txt, .bottom3txt {
+        margin: 20px 10px 10px 10px;
+        padding: 0;
+    }
+
+    .container2 {
+        margin-top: 0;
+    }
+
+    .sliderImg {
+        width: 90%;
+    }
+
+    .sliderImg img {
+        width: 100%;
+    }
+
+
 }
+
+
+
+
+    @media screen and (min-width: 200px) and (max-width: 850px) {
+
+        html {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 100%;
+        }
+
+        .blockChangeTextLeft {
+            width: 100%;
+        }
+
+        .container-general {
+            width: 100%;
+        }
+
+        .contacts {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: auto;
+            width: 100%;
+            box-sizing: border-box;
+            padding-right: 0; !important;
+        }
+
+        .phone {
+            height: 100%;
+            width: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .phone img {
+            height: 100%;
+        }
+
+        .phoneNumber {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: auto;
+            width: auto;
+        }
+
+        .phoneNumber p {
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        .menu {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav {
+            width: 90%;
+        }
+
+        .menu ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .menu li {
+            width: 90%;
+            height: 60px;
+            font-size: 14px;
+            text-transform: uppercase;
+            padding: 5px;
+            color: black;
+            transition-delay: 0.7s;
+            transition: ease-in-out 0.4s;
+            border: 1px solid grey;
+            box-sizing: border-box;
+            margin-top: 10px;
+        }
+
+        .menu li:hover {
+            box-shadow: 0 0 8px grey;
+        }
+
+        .menu li a:hover {
+            text-decoration: none;
+        }
+
+        .descriptionBlock {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+
+        .descriptionBlock-img {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .descriptionBlock-img img {
+            flex-wrap: wrap;
+            justify-content: center;
+            align-self: center;
+            width: 100%;
+            height: auto;
+        }
+
+        .cont3line2 {
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .block-1 {
+            width: 80%;
+            box-sizing: border-box;
+        }
+
+
+
+        .container5 {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .priceGeneral {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+        }
+
+        .priceGeneral table {
+            justify-content: center;
+        }
+
+        .slider {
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .sliderImg {
+            justify-content: center;
+            width: 100%;
+        }
+
+
+        .sliderImg img {
+            width: 100%;
+            height: auto;
+        }
+
+        .sliderTxt {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: justify;
+        }
+
+        .sliderTxt p {
+            text-align: justify;
+        }
+
+        .descriptionBlock-text {
+            display: flex;
+            flex-wrap: wrap;
+            width: 90%;
+            height: 100%;
+        }
+
+        .container7 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .stageImg {
+            flex-wrap: wrap;
+        }
+
+        .pText {
+            text-align: justify;
+        }
+
+        .prefooter {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .upperCase {
+            text-align: center;
+        }
+
+        .container4 {
+            display: flex;
+            width: 100%;
+        }
+
+        .container7 {
+            width: 100%;
+        }
+
+        .text p {
+            text-align: justify;
+        }
+
+        .slider__item {
+            width: 100%;
+        }
+
+        .sliderBlock {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            box-sizing: border-box;
+        }
+
+        .sliderTxt h6 {
+            font-size: 26px;
+        }
+
+        .sliderImg {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+
+        .sliderImg img {
+            width: 100%;
+        }
+
+        .stageTxt {
+            width: 90%;
+        }
+
+        .businessCard hr {
+            margin-bottom: 0;
+        }
+
+        .bottom1, .bottom2, .bottom3 {
+            border: 1px solid grey;
+            border-radius: 6px;
+        }
+        .bottom1img, .bottom2img, .bottom3img {
+            height: 60px;
+        }
+
+        .bottom1img img, .bottom2img img, .bottom3img img {
+            width: 10%;
+            min-width: 60px;
+        }
+
+        .priceImg {
+            width: 90%;
+        }
+
+        .bottom1:hover, .bottom2:hover, .bottom3:hover {
+            box-shadow: 0 0 10px grey;
+            border-radius: 10px;
+            border: 1px solid grey;
+            background-color: #F7F7F7;
+        }
+
+        .container8 {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            background-color: whitesmoke;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .cont8Left, .cont8Right, .block50percent {
+            width: 100%;
+        }
+
+        .container8 h2 {
+            text-align: center;
+        }
+
+        .block50percent a {
+            color: black;
+            line-height: normal;
+            text-align: left;
+            text-decoration: underline;
+            font-size: 16px;
+        }
+
+    }
+
+
+
