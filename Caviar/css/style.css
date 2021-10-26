@@ -1,0 +1,38 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 20px 40px;
+    box-shadow: 0 0 6px 8px whitesmoke;
+}
+
+header h1 {
+    margin: 0 0 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: red;
+    text-shadow: 2px 2px 4px grey;
+}
+
+header h3 {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
