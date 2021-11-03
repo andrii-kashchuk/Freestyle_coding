@@ -1,0 +1,173 @@
+body {
+    background: #25A9FC;
+}
+
+.box {
+    position: relative;
+    margin: auto;
+    display: block;
+    margin-top: 8%;
+    width: 600px; /* 600px */
+    height: 420px; /* 420px */
+    background: none;
+// опциональные фон и рамка
+    background: white;
+    /*border: solid 4px red;*/
+// пишите код здесь
+}
+
+.head {
+    position: absolute;
+    width: 50%;
+    height: 67%;
+    background: #A6BECF;
+    border-radius: 50%;
+    top: 16.5%;
+    left: 25%;
+}
+
+/*
+
+Чем больше изображений вы создадите на чистом CSS, тем быстрее вы будете находить оптимальные значения.
+Но о чем вам действительно нужно подумать сейчас, так это о высоте и ширине родительского div и о том,
+какой размер необходим дочернему div по отношению к его предку.
+
+Теперь, имея проценты позиций, вычислить абсолютный центр гораздо проще. Вот формула:
+
+left = (100 - width) / 2
+top = (100 - height) / 2
+// наш случай
+(100 - 67)/2 = top: 16.5%;
+(100-50)/2 = left: 25%;
+
+*/
+
+.head-copy {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 2;
+    /* my tuning of code below */
+}
+
+/* my tuning of code below */
+.head-copy:hover {
+    background: linear-gradient(90 );
+}
+
+
+.ear-left {
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    left: -20%;
+    top: 5%;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 1;
+    /* my tuning of code below */
+    transition: 0.5s;
+}
+.ear-right {
+    position: absolute;
+    width: 60%;
+    height: 65%;
+    right: -20%;
+    top: 5%;
+    background: #A6BECF;
+    border-radius: 50%;
+    z-index: 1;
+    /* my tuning of code below */
+    transition: 0.5s;
+}
+.inner-ear {
+    position: absolute;
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
+    background: #819CAF;
+}
+
+/* my tuning of code below */
+.ear-left:hover, .ear-right:hover {
+    background: #708899;
+    transition: 0.5s;
+}
+
+.eye-left {
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    top: 25%;
+    left: 21%;
+    border-radius: 50%;
+    z-index: 3;
+    /* my tuning of code below */
+    transition: 0.5s;
+}
+
+.eye-right {
+    position: absolute;
+    background: white;
+    width: 30%;
+    height: 33%;
+    border-radius: 50%;
+    top: 25%;
+    right: 21%;
+    z-index: 3;
+    /* my tuning of code below */
+    transition: 0.5s;
+}
+
+/* my tuning of code below */
+.eye-right:hover, .eye-left:hover {
+    background: red;
+}
+
+.pupil {
+    position: absolute;
+    width: 28%;
+    height: 30%;
+    top: 35%;
+    left: 36%;
+    border-radius: 50%;
+    background: #27354A;
+    z-index: 4;
+}
+
+.nose {
+    position: absolute;
+    width: 25%;
+    height: 42.5%;
+    background: brown;
+    top: 45%;
+    left: 37%;
+    z-index: 4;
+    border-radius: 50px;
+}
+
+.hair-left {
+    position: absolute;
+    top: -8%;
+    left: 30%;
+    width: 20%;
+    height: 20%;
+    background:  #A6BECF;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.hair-right {
+    position: absolute;
+    top: -4%;
+    left: 48%;
+    width: 20%;
+    height: 20%;
+    background:  #A6BECF;
+    -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
